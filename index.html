@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Granton Fires Community Reporter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Granton Fires Community Reporter</h1>
+
+    <div class="headline-text">
+      ℹ️ Fields below are required to populate the email template with your information.
+    </div>
+    
+    <form id="emailForm">
+      <label for="name">Your Name*</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="address">Approximate Address*</label>
+      <input type="text" id="address" name="address" required>
+
+      <details class="councillor-section">
+        <summary class="councillor-header">
+          <h3>Edinburgh Forth Councillors</h3>
+          <small>(Click to expand/collapse)</small>
+        </summary>
+
+        <div class="help-text">
+          ℹ️ Click any email address below to open a pre-populated message in your email client which may be amended.
+        </div>
+        
+        <div class="councillor-list">
+          <div class="councillor-card">
+            <strong>Cammy Day</strong>
+            <div class="email-instruction"></div>
+            <a href="#" class="councillor-email" data-email="Cammy.Day@edinburgh.gov.uk">
+              ✉️ Cammy.Day@edinburgh.gov.uk
+            </a>
+          </div>
+          <div class="councillor-card">
+            <strong>Sanne Dijkstra-Downie</strong>
+            <div class="email-instruction"></div>
+            <a href="#" class="councillor-email" data-email="Cllr.Sanne.Dijkstra-Downie@edinburgh.gov.uk">
+              ✉️ Cllr.Sanne.Dijkstra-Downie@edinburgh.gov.uk
+            </a>
+          </div>
+          <div class="councillor-card">
+            <strong>Stuart Dobbin</strong>
+            <div class="email-instruction"></div>
+            <a href="#" class="councillor-email" data-email="Cllr.Stuart.Dobbin@edinburgh.gov.uk">
+              ✉️ Cllr.Stuart.Dobbin@edinburgh.gov.uk
+            </a>
+          </div>
+          <div class="councillor-card">
+            <strong>Kayleigh O'Neill</strong>
+            <div class="email-instruction"></div>
+            <a href="#" class="councillor-email" data-email="Cllr.Kayleigh.ONeill@edinburgh.gov.uk">
+              ✉️ Cllr.Kayleigh.ONeill@edinburgh.gov.uk
+            </a>
+          </div>
+
+          <div class="template-editor">
+            <label>Email Subject:</label>
+            <input type="text" id="councillorSubject" class="template-subject" 
+                   value="Urgent Complaint About Persistent Fires and Toxic Smoke">
+            
+            <label>Email Template:</label>
+            <textarea id="councillorTemplate" class="template-textarea">
+Dear Councillor [councillorName],
+
+I am writing to raise a serious complaint regarding the persistent fires and toxic smoke in my area near Madelvic Factory. This is not the first time the community has raised this issue—discussions on this matter date back to last year, yet nothing has changed. The fires continue, the smoke remains thick and hazardous, and the response from public services has been wholly inadequate.
+
+I, [Your Name] (Address: [Your Address]), along with other affected members of the community, have been suffering due to:
+
+- Thick, toxic smoke seeping into homes due to the wind
+- Severe public nuisance and health risks
+- Repeated occurrences throughout the day
+
+We demand:
+1. Immediate action to extinguish these fires
+2. A formal explanation for the year-long inaction
+3. Clear accountability for enforcement responsibility
+
+I expect a prompt and detailed response.
+
+Regards,
+[Your Name]
+[Your Address]</textarea>
+          </div>
+        </div>
+      </details>
+
+
+      <details class="councillor-section">
+        <summary class="councillor-header">
+          <h3>MSP for Edinburgh Northern and Leith</h3>
+          <small>(Click to expand/collapse)</small>
+        </summary>
+
+        <div class="help-text">
+          ℹ️ Click any email address below to open a pre-populated message in your email client which may be amended.
+        </div>
+        
+        <div class="councillor-list">
+          <div class="councillor-card">
+            <strong>Ben Macpherson</strong>
+            <div class="email-instruction"></div>
+            <a href="#" class="councillor-email" data-email="Ben.Macpherson.msp@parliament.scot">
+              ✉️ Ben.Macpherson.msp@parliament.scot
+            </a>
+          </div>
+
+          <div class="template-editor">
+            <label>Email Subject:</label>
+            <input type="text" id="mspSubject" class="template-subject" 
+                   value="Urgent Matter – Public Health & Environmental Neglect at Madelvic House">
+            
+            <label>Email Template:</label>
+            <textarea id="mspTemplate" class="template-textarea">
+Dear [MSP Name],
+
+I am reaching out to you regarding a severe public health and environmental issue that has been affecting our community. Repeated fires are producing thick, toxic smoke that is seeping into homes, creating serious health risks. Despite numerous complaints, the fire service and local authorities have failed to act.
+
+Residents have been suffering due to:
+- Ongoing exposure to hazardous smoke and fumes
+- Severe public nuisance, making breathing in our own homes difficult
+- A complete failure of public services to address a critical health hazard
+
+I urge you to:
+- Raise this matter in the Scottish Parliament and demand accountability from SFRS and the Scottish Government
+- Push for urgent intervention to put an end to these fires and protect residents
+- Seek answers from relevant agencies on why this issue has persisted for over a year
+
+We expect our elected representatives to stand up for their constituents’ health and safety. 
+I look forward to your response and support.
+
+Regards,
+[Your Name]
+[Your Address]</textarea>
+          </div>
+        </div>
+      </details>
+
+
+      <details class="councillor-section">
+        <summary class="councillor-header">
+          <h3>Edinburgh Environmental Health</h3>
+          <small>(Click to expand/collapse)</small>
+        </summary>
+
+        <div class="help-text">
+          ℹ️ Click any email address below to open a pre-populated message in your email client which may be amended.
+        </div>
+        
+        <div class="councillor-list">
+          <div class="councillor-card">
+            <strong>Edinburgh Council</strong>
+            <div class="email-instruction"></div>
+            <a href="#" class="councillor-email" data-email="environmentalhealth@edinburgh.gov.uk">
+              ✉️ environmentalhealth@edinburgh.gov.uk
+            </a>
+          </div>
+
+          <div class="template-editor">
+            <label>Email Subject:</label>
+            <input type="text" id="envHealthSubject" class="template-subject" 
+                   value="Madelvic House Lack of Action on Fires">
+            
+            <label>Email Template:</label>
+            <textarea id="envHealthTemplate" class="template-textarea">
+Dear Edinburgh Council,
+
+I am writing to formally express my deep concern regarding the ongoing issue of frequent fires in our local area, which have been occurring on a weekly basis and producing dangerous smoke and pollution.
+
+Despite numerous complaints and reports from concerned residents, it appears that little to no action has been taken by your agency to mitigate this hazardous situation. The thick smoke and air pollution resulting from these fires pose significant health risks to the community, particularly to children, the elderly, and individuals with respiratory conditions such as asthma. In addition to health concerns, persistent air pollution degrades our local environment and overall quality of life.
+
+We as a community, expect you to take immediate and effective measures to:
+- Investigate the causes of these fires
+- Enforce environmental regulations
+- Implement solutions to prevent further occurrences
+- Provide transparency regarding ongoing efforts or planned actions
+
+As a concerned citizen, I urge you to prioritize this matter and provide a timely response outlining the steps being taken to resolve the issue. The community cannot continue to suffer the consequences of inaction. If no prompt action is taken, we will escalate our concerns to higher authorities and the media.
+
+Please provide a timeline for your investigation and intervention at your earliest convenience.
+
+Regards,
+[Your Name]
+[Your Address]</textarea>
+          </div>
+        </div>
+      </details>
+
+      <details class="councillor-section">
+        <summary class="councillor-header">
+          <h3>Scottish Fire and Rescue Service</h3>
+          <small>(Click to expand/collapse)</small>
+        </summary>
+
+        <div class="help-text">
+          ℹ️ Click any email address below to open a pre-populated message in your email client which may be amended.
+        </div>
+        
+        <div class="councillor-list">
+          <div class="councillor-card">
+            <strong>SFRS</strong>
+            <div class="email-instruction"></div>
+            <a href="#" class="councillor-email" data-email="SFRS.Complaints@firescotland.gov.uk">
+              ✉️ SFRS.Complaints@firescotland.gov.uk
+            </a>
+          </div>
+
+          <div class="template-editor">
+            <label>Email Subject:</label>
+            <input type="text" id="sfrsSubject" class="template-subject" 
+                   value="Madelvic House Fire Service Failure to Act – Persistent Fires Ignored">
+            
+            <label>Email Template:</label>
+            <textarea id="sfrsTemplate" class="template-textarea">
+Dear SFRS,
+
+I am writing to raise a complaint regarding the persistent fires and toxic smoke in my area. This is not the first time the community has reported this issue - with discussions dating back years. Your service has repeatedly refused to put them out, claiming they are “controlled” despite clear evidence of harm to residents.
+
+The community is suffering due to:
+- Thick, toxic smoke seeping into homes due to the wind
+- Severe public nuisance and health risks, especially for vulnerable residents
+- Repeated fires throughout the day and across multiple days, with firefighters failing to extinguish them
+
+I would like:
+- Immediate and decisive action to put out these fires and prevent further occurrences
+- A formal explanation as to why SFRS has refused to intervene despite clear evidence of harm
+
+Please provide a timeline for your investigation at your earliest convenience.
+
+Regards,
+[Your Name]
+[Your Address]</textarea>
+          </div>
+        </div>
+      </details>
+    </form>
+  </div>
+
+
+<div class="gallery-container">
+  <h2>Incident Media Archive</h2>
+  <div id="mediaTimeline"></div>
+</div>
+
+
+<div id="mediaModal" class="modal">
+  <span class="close">&times;</span>
+  <div class="modal-content">
+    <img id="expandedImage" class="modal-media">
+    <video id="expandedVideo" class="modal-media" controls></video>
+    <div id="mediaCaption"></div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
