@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { file: 'Gallery/16th_Feb_2025_Fire_Image_1_16-02-25.png', type: 'image' },
       { file: 'Gallery/Kayleigh_Response_to_Feb_16_2025_Fires_17-02-25.JPG', type: 'image' },
       { file: 'Gallery/Ben_Response_to_Feb_16_2025_Fires_18-02-25.JPG', type: 'image' },
+      { file: 'Gallery/Edi_Gov_Response_to_Feb_16_2025_Fires_20-02-25.JPG', type: 'image' },
     ];
     
   
