@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
       { file: 'Gallery/Kayleigh_Response_to_Feb_16_2025_Fires_17-02-25.JPG', type: 'image' },
       { file: 'Gallery/Ben_Response_to_Feb_16_2025_Fires_18-02-25.JPG', type: 'image' },
       { file: 'Gallery/Edi_Gov_Response_to_Feb_16_2025_Fires_20-02-25.JPG', type: 'image' },
-      { file: 'Ben_Email_to_Scottish_Government_10-01-25.JPG', type: 'image' },
+      { file: 'Gallery/Ben_Email_to_Scottish_Government_10-01-25.JPG', type: 'image' },
       { file: 'Gallery/Ben_follow_up_on_setting_up_a_meeting_24-02-25.png', type: 'image' },
-      { file: 'Gallery/Ben_to_Set_Up_Meeting_19-02-25.png', type: 'image' },
+      { file: 'Gallery/Ben_to_Set_Up_Meeting_21-02-25.png', type: 'image' },
     ];
     
   
