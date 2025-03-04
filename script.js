@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
       { file: 'Gallery/Ben_Email_to_Scottish_Government_10-01-25.JPG', type: 'image' },
       { file: 'Gallery/Ben_follow_up_on_setting_up_a_meeting_24-02-25.png', type: 'image' },
       { file: 'Gallery/Ben_to_Set_Up_Meeting_21-02-25.png', type: 'image' },
+      { file: 'Gallery/Ben_update_on_meeting_held_04-03-25.png', type: 'image' },
     ];
     
   
